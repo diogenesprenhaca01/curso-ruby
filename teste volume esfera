@@ -1,0 +1,12 @@
+#peça ao usuario que digite um numero para raio e calcule o volume da esfera
+
+puts "digite um valor para calcular o volume do mesmo."
+
+raio = gets().to_f
+
+PI = 3.14159
+
+volume = (4/3.0)*PI*raio**3
+
+
+puts "volume = #{volume}"
